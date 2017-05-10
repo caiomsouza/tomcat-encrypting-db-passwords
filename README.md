@@ -45,3 +45,18 @@ https://wiki.apache.org/tomcat/FAQ/Password
 
 # AES Test Project
 https://github.com/caiomsouza/AES
+
+# Feature request
+Encrypt passwords found in the following files:<BR>
+http://jira.pentaho.com/browse/BISERVER-3497 <BR>
+
+```
+/tomcat/webapps/pentaho/META-INF/context.xml [tomcat]
+/pentaho-solutions/system/applicationContext* [spring]
+/pentaho-solutions/system/hibernate/* [hibernate]
+/pentaho-solutions/system/smtp-email/email_config.xml
+/pentaho-solutions/system/jackrabbit/repository.xml
+/pentaho-solutions/system/karaf/etc/pentaho.jms.cfg
+```
+
+
