@@ -4,6 +4,7 @@ java -jar encryptedDS.jar your_password
 
 ```
 
+![AES](https://github.com/caiomsouza/tomcat-encrypting-db-passwords/blob/master/img/Test01.PNG)
 
 
 # Tomcat Encrypting DB Passwords
