@@ -87,6 +87,24 @@
           </configuration>
         </plugin>
       </plugins>
+      
+      <pluginManagement>
+        <plugins>
+            <plugin>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>2.1.2</version>
+                <executions>
+                    <execution>
+                        <phase>deploy</phase>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </pluginManagement>
+      
     </build>
 
 
@@ -111,6 +129,20 @@ Code below not working
     </relocation>
 </distributionManagement>
   
+
+ 
  -->  
+ 
+ 
+
+<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>${basedir}/target</url>
+       </repository>
+   </distributionManagement>
+
+
 
 </project>

@@ -1,5 +1,0 @@
-package org.pentaho.tomcat.encrypting.db.passwords;
-
-public class Encryptor {
-
-}
