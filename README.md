@@ -1,3 +1,11 @@
+# Test it
+```
+java -jar encryptedDS.jar your_password
+
+```
+
+
+
 # Tomcat Encrypting DB Passwords
 
 Please read the link below to understand the project:
